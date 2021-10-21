@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <Route exact path="/ecommerce" component={ProductList} />
-      <Route exact path={process.env.PUBLIC_URL + '/prod/:prodId'} component={ProductDetails} />
+      <Route exact path="/prod/:prodId" component={ProductDetails} />
     </Router>
   );
 }
