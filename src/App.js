@@ -12,7 +12,7 @@ import ProductDetails from './ProductDetails';
 function App() {
   return (
     <Router>
-      <Route exact path="/" component={ProductList} />
+      <Route exact path="/ecommerce" component={ProductList} />
       <Route exact path="/prod/:prodId" component={ProductDetails} />
     </Router>
   );
