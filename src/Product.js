@@ -19,11 +19,11 @@ function BasicChips(props) {
 export default function ActionAreaCard(props) {
     return (
         <Card sx={{ maxWidth: 345 }} >
-            <CardActionArea href={props.det ? "/" : `/prod/${props.prod.UPC}`}>
+            <CardActionArea href={props.det ? "/ecommerce" : `/prod/${props.prod.UPC}`}>
                 <CardMedia
                 component="img"
                 height="140"
-                image="/emptycart.png"
+                image="https://picsum.photos/200/300"
                 alt="product"
                 />
                 <CardContent>
